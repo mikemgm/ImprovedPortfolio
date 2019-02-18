@@ -1,9 +1,21 @@
 @import "node_modules/bootstrap/scss/bootstrap"; 
 
-.body{
-    background-color: red;
+html, body{
+    height: 100%; 
+    width: 100%; 
+    color: #222;
+    }
+
+    .navbar{
+        padding: .8rem; 
+}
+    .navbar-nav li {
+        padding-right: 20px;
     }
     
+    .nav-link {
+        font-size: 1.1em !important;
+    }
     
     
     .carousel-inner img{

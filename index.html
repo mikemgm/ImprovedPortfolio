@@ -7,8 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous"> 
-    <link href="custom.scss" rel="stylesheet"> 
-    <link 
+    <link rel="stylesheet" type="text/css" href="style.css" > 
+    
 
 
 
@@ -16,6 +16,39 @@
     <title>M.M.</title>
   </head>
   <body>
+    <!-- NAV BAR -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top"> 
+<div class="container-fluid">
+    <a class="navbar-brand" href="#"><img src="img/logo.png"></a> 
+    <button class="navbar-toggler" 
+            type="button" 
+            data-toggle="collapse" 
+            data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">WORK</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SKILLS</a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT</a>
+            </li>
+
+        </ul>
+
+    </div>
+</div>
+
     <!-- HERO -->
 <div class="carousel slide" id="slides" data-ride="carousel"> 
   <ul class="carousel-indicators"> 
@@ -132,7 +165,7 @@
   <!--CALL TO ACTION -->
   <figure>
   <div class="fixed-wrap"> 
-  <div id="fixed"> 
+  <!-- <div id="fixed">  -->
   <div class="bs-calltoaction bs-calltoaction-primary">
                   <div class="row">
                       <div class="col-md-9 cta-contents">
@@ -142,12 +175,12 @@
                           </div>
                       </div>
                           <div class="col-md-3 cta-button">
-                          < a "Find a Mentor!", new_user_session_path, class:"btn btn-lg btn-block btn-primary">
+                          <a text= "Find a Mentor!"  class="btn btn-lg btn-block btn-primary"></a>
                           </div>
                   </div>
               </div> 
   </div>
-  </div>
+  <!-- </div> -->
   </figure>
   
   <!-- FEATURES -->
@@ -164,7 +197,7 @@
           
           </div>
               <div class="ml-auto col-lg-4"> 
-              < img src= "cooking_mentor.gif", class:"cook") >
+              <img src= "cooking_mentor.gif", class="cook") >
           </div>
       </div>
   </div>
@@ -175,8 +208,8 @@
   <div class="row text-center padding"> 
       <div class="col-12 cta padding">
           <h2 id="join">Join Thousands of Mentees & Mentors!</h2>
-          < a "Be a Mentee", new_user_session_path, class:"btn btn-primary btn-lg">
-          < a "Become a Mentor", new_user_session_path, class:"btn btn-primary btn-lg">
+          <a text="Be a Mentee" class="btn btn-primary btn-lg">
+          <a text="Become a Mentor" class="btn btn-primary btn-lg">
       </div>     
   </div> 
   </div> 
@@ -235,7 +268,7 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script> 
     
   </body>
 </html>
